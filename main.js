@@ -50,4 +50,10 @@ default:
     final = "something went wrong"
 }
 
-console.log(final)
+//console.log(final)
+
+console.log(`In todays random message, I am convinced that my ${prop} is ${myObj[prop]}`)
+//could of pushed each bit into an array to break it up if just returning one bit of data from
+//the whole script 
+console.log(`I also predict that ${myArr[r()]} will win the world cup this year`)
+console.log(`And finally, i hope that ${final}`)
